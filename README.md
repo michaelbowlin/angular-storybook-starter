@@ -17,6 +17,7 @@ To start storybook `npm run storybook`.
 - [x] knobs - Interactively edit component prop data in the Storybook UI
 - [x] links - Create links between stories
 - [x] notes - Annotate Storybook stories with notes
+* - [x] notes - Storybook stories with notes that include Markdown
 - [x] options - Customize the Storybook UI in code
 - [ ] storyshots - Easy snapshot testing for components in Storybook
 - [x] storysource - View the code of your stories within the Storybook UI
