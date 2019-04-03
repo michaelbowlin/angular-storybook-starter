@@ -1,6 +1,7 @@
 import { storiesOf } from '@storybook/angular';
 import { withNotes } from '@storybook/addon-notes';
 import { ButtonComponent } from '../app/button.component';
+import * as readme from '../app/someMarkdownText.md';
 
 storiesOf('Addon|Notes', module)
   .addDecorator(withNotes)
@@ -32,5 +33,18 @@ storiesOf('Addon|Notes', module)
 
       Emojis are great, I love emojis, in fact I like using them in my Component notes too! 😇
     `,
+    }
+  )
+  .add(
+    'Note with MARKDOWN',
+    () => ({
+      component: ButtonComponent,
+      props: {
+        text: 'Notes with HTML',
+        onClick: () => {},
+      },
+    }),
+    {
+      notes: { markdown: readme }
     }
   );
