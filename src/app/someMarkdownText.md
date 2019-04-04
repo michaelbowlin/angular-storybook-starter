@@ -1,19 +1,6 @@
-
-# Example Markdown
----
----
-````
-
-<div [foo]="fooBar">{{ fooMeOnce }}</div>
-
-
-````
-
-
----
-# ./ END MatFormField.html
----
-
+<div class="markdown-body">
+# Markdown Example
+***
 
 __Advertisement :)__
 
@@ -259,3 +246,5 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 ::: warning
 *here be dragons*
 :::
+
+</div>
